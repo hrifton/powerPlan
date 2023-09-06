@@ -1,27 +1,30 @@
-# Power plant_coding_challenge  (Asbagui Hicham)
- 
+# PowerPlan
+
 ## Description
 Projet DotnetCore 6
 
 ## Prérequis
+```
 - Docker
 - Docker Compose
 - DotnetCore
+```
 
-## Run Locally  
+## Getting Started <a name = "getting_started"></a>
 
-Go to the project directory  
+### Installing
 
-~~~bash  
-  cd powerplant-coding-challenge
-~~~
+at the root of the project: Write next command
 
-Run with Docker compose
 
-~~~bash  
-docker compose up -d
-~~~
+```
+docker-compose up -d
+```
+the project PowerPlan crée a container and run this one when
+the container runded you can check URL
 
-## Url Api
-
-http://localhost:8888
+## URL <a name = "usage"></a>
+### https :
+https://localhost:8888/swagger/index.html
+### http :
+http://localhost:8887/swagger/index.html
