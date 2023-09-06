@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  powerplantwebapi:
+    container_name: powerplant-api
+    image: ${DOCKER_REGISTRY-}powerplantwebapi
+    ports:
+     - 8888:80
+    build:
+      context: .
+      dockerfile: powerplant-coding-challenge/Dockerfile
